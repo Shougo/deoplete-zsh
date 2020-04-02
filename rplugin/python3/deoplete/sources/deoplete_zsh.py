@@ -44,7 +44,7 @@ class Source(Base):
                     for piece in pieces[0].split():
                         result.append({
                             'word': piece.strip(),
-                            'menu': pieces[-1],
+                            'info': pieces[-1],
                         })
         except subprocess.SubprocessError:
             return []
