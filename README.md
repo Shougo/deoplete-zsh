@@ -12,7 +12,7 @@ https://github.com/neovim/neovim/
 https://github.com/Shougo/deoplete.nvim
 
 
-### zsh/zpty module
+### zsh and zsh/zpty module
 
 ```zsh
 zmodload zsh/zpty
@@ -23,9 +23,6 @@ zmodload zsh/zpty
 
 It saves compdump file in `$DEOPLETE_ZSH_CACHE_DIR` or `$XDG_CACHE_HOME` or
 `$HOME/cache` directory.
-
-
-## TODO
 
 
 ## Original code
